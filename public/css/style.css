@@ -1,0 +1,7 @@
+
+tbody:hover tr{
+    filter: blur(3px);
+}
+tbody tr:hover{
+    filter: none;
+}

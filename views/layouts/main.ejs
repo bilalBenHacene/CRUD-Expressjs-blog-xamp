@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title><%= local.title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+    <script src="/script/script.js" defer></script>
+    <meta name="description" content="<%= local.description %>">
+</head>
+<body class="">
+    <%- include('../temp/header') %>
+    <main class=" mx-auto mb-10">
+        <%-body %>
+    </main>
+    <%- include('../temp/footer') %>
+</body>
+</html>
